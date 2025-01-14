@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Sairamasubash Muppalaneni's Portfolio Website</title>
+
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+
+        <div id="headerPage">
+
+            <div class="cell">
+
+                <nav>
+
+                    <ul id="menuBar">
+
+                        <li><a href="#headerPage">Home</a></li>
+
+                        <li><a href="#aboutPage">About</a></li>
+
+                        <li><a href="#porfolioPage">Portfolio</a></li>
+
+                        <li><a href="#contactPage">Contact</a></li>
+
+                        <i class="fas fa-times" onclick=closeFunction()></i>
+
+                    </ul>
+
+                    <i class="fas fa-bars" onclick="openFunction()"></i>
+
+                </nav>
+
+                <div class="headerPageMaterial">
+
+                    <p>Software Programmer</p>
+
+                    <h1>Hello, I am <span>Sairamasubash Muppalaneni</span> From Chicago, Illinois.</h1>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="aboutPage">
+
+            <div class="cell">
+
+                <div class="aboutPageRow">
+
+                    <div class="aboutPageColumnOne">
+
+                        <img src="Images/Main_Image.png">
+                        
+                    </div>
+                    
+                    <div class="aboutPageColumnTwo">
+                        
+                        <h1 class="extra">About Me</h1>
+
+                        <p>I graduated from Northern Illinois University with a Bachelor of Science 
+                            in Computer Science in May 2022, and I graduated from the University of 
+                            Illinois at Urbana-Champaign with a Master of Science in Computer Science 
+                            in December 2023. I learned so much about software development during my 
+                            studies at these two universities. I am currently looking for a full-time 
+                            entry-level position or a full-time internship position to put everything 
+                            thing that I learned to use in the real world, while growing and improving 
+                            as a programmer. </p>
+
+                        <div class="threeItems">
+
+                            <p class="items currentItem" onclick="clickItem('skills')">Skills</p>
+
+                            <p class="items" onclick="clickItem('education')">Education</p>
+
+                            <p class="items" onclick="clickItem('experience')">Experience</p>
+
+                        </div>
+
+                        <div class="threeItems2 currentItem2" id="skills">
+
+                            <ul>
+
+                                <li><span>Programming Languages:</span><br>Java, PHP, C, C++, ASP.Net, C#, XML, Python</li>
+
+                                <li><span>Algorithms:</span><br>Machine Learning, Deep Learning, Artificial Intelligence</li>
+
+                                <li><span>Software:</span><br>GIT, PyCharm CE, Google Colab, Unity</li>
+
+                                <li><span>Web Technologies:</span><br>HTML, CSS, JavaScript, Angular JS, React JS</li>
+
+                                <li><span>Databases:</span><br>Oracle, SQL Server, Mongo DB, MySQL</li>
+
+                                <li><span>Operating Systems:</span><br>Windows, UNIX, LINUX</li>
+
+                                <li><span>Development Tools:</span><br>Visual Studio, Xcode</li>
+
+                                <li><span>Microsoft Office:</span><br>MS Excel, MS Word, MS PowerPoint, MS Office Suite</li>
+
+                            </ul>
+
+                        </div>
+
+                        <div class="threeItems2" id="education">
+
+                            <ul>
+
+                                <li><span>August 2022 - December 2023</span><br>University of Illinois at Urbana-Champaign: Master of Science in Computer Science</li>
+
+                                <li><span>August 2018 - May 2022</span><br>Northern Illinois University: Bachelor of Science in Computer Science, Minor in Business Administration</li>
+
+                                <li><span>August 2014 - May 2018</span><br>Rolling Meadows High School, Illinois</li>
+
+                                <li><span>August 2012 - May 2014</span><br>Carl Sandburg Junior High School, Illinois</li>
+                            </ul>
+
+                        </div>
+
+                        <div class="threeItems2" id="experience">
+
+                            <ul>
+
+                                <li><span>Augmented Reality Developer Internship </span><br>
+                                    <span>3D HoloGroup, Inc., Fort Lauderdale, FL (Remote)</span><br>
+                                    <span>Jun 2023 – Nov 2023</span><br>
+                                    <ul>
+                                        <li>Assisting with day-to-day tasks and projects within my assigned department.</li>
+                                        <li>Conducting research, analyzing data, and preparing reports.</li>
+                                        <li>Participating in team meetings and contributing ideas and insights.</li>
+                                        <li>Collaborating with team members on specific initiatives.</li>
+                                        <li>Learning and applying new skills and technologies relevant to my role.</li>
+                                        <li>A large focus on web development, databases, and AI.</li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </div> 
+
+            </div>
+
+        </div>
+
+    <div id="porfolioPage">
+
+        <div class="cell">
+
+            <h1 class="extra">My Work</h1>
+            
+            <div class="list">
+
+                <div class="myExperience">
+
+                    <img src="Images/reddit.png">
+
+                    <div class="overview">
+
+                        <h3>A Reddit Clone – Pair Programming Project</h3>
+
+                        <p>The Reddit Clone is a pair programming project that me and my partner completed using the ASP.NET framework. For this project, we used .NET’s design view and the C# programming language to create an interface that looks exactly like the Reddit website or the Reddit App.</p>
+
+                    </div>
+
+                </div>
+
+                <div class="myExperience">
+
+                    <img src="Images/karaoke.png">
+
+                    <div class="overview">
+
+                        <h3>Karaoke Club’s Database – Group Programming Project</h3>
+
+                        <p>The Karaoke Club’s Database is a project that me and my group completed using HTML, PHP, CSS, and SQL. For this project, we created a database that stores all the important information about a Karaoke Club.</p>
+
+                    </div>
+
+                </div>
+
+                <div class="myExperience">
+
+                    <img src="Images/PD.png">
+
+                    <div class="overview">
+
+                        <h3>Prisoner’s Dilemma Game – Solo Programming Project</h3>
+
+                        <p>It is a Solo programming project that I completed using the Java programming language. For this project, I created a Java representation of the very famous game known as Prisoner’s dilemma.</p>
+
+                    </div>
+
+                </div>
+
+                <div class="myExperience hidden">
+
+                    <img src="Images/HeaderLogo.png">
+
+                    <div class="overview">
+
+                        <h3>Personal Portfolio Website – Solo Programming Project</h3>
+
+                        <p>The Personal Portfolio Website is a solo programming project that I completed using HTML, CSS, and JavaScript. For this project, I created my own portfolio website.</p>
+
+                    </div>
+
+                </div>
+
+                <div class="myExperience hidden">
+
+                    <img src="Images/FT.png">
+
+                    <div class="overview">
+
+                        <h3>Fault Tolerance Measurement – Solo Research Project</h3>
+
+                        <p>The Fault Tolerance Measurement is a solo research project that I completed using the C programming language. For this project, I measured the fault tolerance of a Linux operating system by creating and injecting kernel module faults.</p>
+
+                    </div>
+
+                </div>
+
+                <div class="myExperience hidden">
+
+                    <img src="Images/ns3.png">
+
+                    <div class="overview">
+
+                        <h3>COPA Implementation on ns-3 – Group Research Project</h3>
+
+                        <p>The COPA Implementation on ns-3 is a group research project that me and my group completed using the Python and C programming languages. For this project, me and my group implemented the COPA congestion control protocol on ns-3.</p>
+
+                    </div>
+
+                </div>
+
+                <div class="myExperience hidden">
+
+                    <img src="Images/ticket.png">
+
+                    <div class="overview">
+
+                        <h3>Ticketing Website – Group Programming  Project</h3>
+
+                        <p>The ticketing website is a group programming project that me and my group completed using CSS, HTML, and JavaScript. For this project me and my group implemented a ticketing website similar to ticket master.</p>
+
+                    </div>
+
+                </div>
+
+                <div class="myExperience hidden">
+
+                    <img src="Images/3D_Reconstruction.png">
+
+                    <div class="overview">
+
+                        <h3>3D Reconstruction from RGB Image Captures – Group Research Project</h3>
+
+                        <p>3D Reconstruction from RGB Image Captures is a group research project that me and my group completed using the Python programming language. For this project, me and my used a lot of RGB images captures and generated a 3D reconstruction from them.</p>
+
+                    </div>
+
+                </div>
+
+                <div class="myExperience hidden">
+
+                    <img src="Images/AR.png">
+
+                    <div class="overview">
+
+                        <h3>Augmented Reality (AR) Headset – Augmented Reality Developer Internship Project</h3>
+
+                        <p>Creating an augmented reality headset is a project that me and my colleagues contributed to during my internship as an augmented reality developer. We used the Unity platform and the C# programming language. For this project, me and my colleagues contributed to programming an augmented reality headset that helps people who can’t speak by speaking form them.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <button id="button">See More</button>
+
+        </div>
+        
+    </div>
+
+    <div id="contactPage">
+
+        <div class="cell">
+
+            <div class="aboutPageRow">
+
+                <div class="leftSide">
+
+                    <h1 class="extra">Contact Me</h1>
+
+                    <p><i class="fas fa-paper-plane"></i>smuppalaneni2000@gmail.com</p>
+
+                    <p><i class="fas fa-phone-square-alt"></i>630-923-2281</p>
+
+                    <div class="icons">
+
+                        <a href="https://www.facebook.com/profile.php?id=100071238400885"><i class="fab fa-facebook"></i></a>
+
+                        <a href="https://twitter.com/Subash_M1000000"><i class="fab fa-twitter-square"></i></a>
+
+                        <a href="https://github.com/SairamasubashMuppalaneni"><i class="fa-brands fa-github"></i></a>
+
+                        <a href="https://www.linkedin.com/in/subash-muppalaneni-b3955b218/"><i class="fab fa-linkedin"></i></a>
+
+                    </div>
+
+                    <a href="Images/NewResume.docx" download="" class="one two">Download Resume</a>
+
+                </div>
+
+                <div class="rightSide">
+
+                    <form name="submit-to-google-sheet">
+
+                        <input type="text" name="Name" placeholder="Please Type Your Name" required>
+
+                        <input type="email" name="Email" placeholder="Please Type Your Email" required>
+
+                        <textarea name="Message" rows="6" placeholder="Please Type Your Message" required></textarea>
+
+                        <button type="submit" class="one two">Submit</button>
+
+                    </form>
+
+                    <span id="message"></span>
+
+                </div>     
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script>
+
+        var itemOne = document.getElementsByClassName("items");
+
+        var itemTwo = document.getElementsByClassName("threeItems2");
+
+        function clickItem(name)
+        {
+            for(item1 of itemOne)
+            {
+                item1.classList.remove("currentItem");
+
+            }
+            for(item2 of itemTwo)
+            {
+                item2.classList.remove("currentItem2");
+            }
+
+            event.currentTarget.classList.add("currentItem");
+
+            document.getElementById(name).classList.add("currentItem2");
+        }
+
+        document.getElementById('button').addEventListener('click', function() 
+        {
+            var hiddenItems = document.querySelectorAll('.myExperience.hidden');
+
+            for (var i = 0; i < 3 && i < hiddenItems.length; i++) 
+            {
+                hiddenItems[i].classList.remove('hidden');
+            }
+
+            if (document.querySelectorAll('.myExperience.hidden').length === 0) 
+            {
+                this.style.display = 'none';
+            }
+
+        });
+
+    </script>
+
+    <script>
+
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxtXrM9lbIoSE_Jiz3IYC6Qfy8Fduz6-eez52Gz0HRVwgLYKSIywYfIpIXSHKHdDqic/exec'
+
+        const form = document.forms['submit-to-google-sheet']
+
+        const message = document.getElementById("message")
+    
+        form.addEventListener('submit', e => {
+
+        e.preventDefault()
+
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)}).then(response => {
+
+                message.innerHTML = "Your Message Has Been Sent Successfully"
+
+                setTimeout(function(){
+
+                    message.innerHTML = ""
+                    
+                }, 5000)
+
+                form.reset()
+
+            }).catch(error => console.error('Error!', error.message))
+
+        })
+
+    </script>
+
+    <script>
+        
+        var menu = document.getElementById("menuBar");
+
+        function openFunction()
+        {
+            menu.style.right = "0";
+        }
+
+        function closeFunction()
+        {
+            menu.style.right = "-200px";
+        }
+
+    </script>
+
+    </body>
+
+</html>
