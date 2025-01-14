@@ -1,3 +1,3 @@
 # 2024_Projects
 
-Various Projects Completed in 2024.
+Various Projects and Certifications Completed in 2024.
